@@ -19,7 +19,6 @@ function getRandomRGBColorOpacity(){
 
     return `rgb(${r},${g},${b})`
 }
-
 let knop = document.getElementById("veranderKleur");
 knop.addEventListener("click", function (){
     document.body.style.backgroundColor = getRandomRGBColorOpacity();
